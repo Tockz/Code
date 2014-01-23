@@ -1,0 +1,124 @@
+
+/* Transitioning background */
+#tranzpics {
+ position: relative;
+ margin: 0px auto;
+}
+
+#tranzpics img {
+	position: absolute;
+	margin: 0px auto;
+	-webkit-transition: opacity 1s ease-in-out;
+	-moz-transition: opacity 1s ease-in-out;
+	-o-transition: opacity 1s ease-in-out;
+	transition: opacity 1s ease-in-out;
+
+}
+
+#tranzpics img.transparent {
+	opacity: 0;
+}
+
+@keyframes tranzpicsFadeInOut {
+0% {
+	opacity: 1;
+}
+45% {
+	opacity: 1;
+}
+55% {
+	opacity: 0;
+}
+100% {
+	opacity: 0;
+}
+}
+
+#tranzpics img.top {
+	animation-name: tranzpicsFadeInOut;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+	animation-duration: 12s;
+	animation-direction: alternate;
+}
+/* Body, p, a, nav, everything design */
+body {
+	background-color: black;
+	margin-top: 15%;
+	margin-bottom: 25%;
+	margin-right: 25%;
+	margin-left: 25%;
+
+}
+
+
+body p {
+	color: lightblue;
+	text-align: center;
+	font-size: 16px;
+	letter-spacing: 1.5px;
+	line-height: 20px;
+}
+
+/* Nav bullshit */
+body nav {
+	text-align: center;
+	text-decoration: none;
+	word-spacing: 8px;
+}
+
+body nav:hover {
+	color: blue;
+	-webkit-transition: opacity 1s ease-in-out;
+	-moz-transition: opacity 1s ease-in-out;
+	-o-transition: opacity 1s ease-in-out;
+	transition: opacity 1s ease-in-out;
+
+}
+body nav ul {
+	list-style: none;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+body nav ul li {
+	display: inline;
+	list-style: none;
+	text-decoration: none;
+	word-spacing: 20px;
+}
+
+body nav ul li a {
+	text-decoration: none;
+	list-style: none;
+}
+
+body h1 {
+	text-align: center;
+}
+
+body h2 {
+	color: lightblue;
+	text-align: center;
+}
+
+/* Specific design */
+#div3contact ul {
+	text-decoration: none;
+	list-style: none;
+	list-style-type: none;
+	text-align: center;
+	color: lightblue;
+}
+
+#div3contact ul li {
+	font-size: 16px;
+	letter-spacing: 1.5px;
+}
+
+#div1 p a{
+	text-decoration: none;
+	list-style-type: none;
+	list-style: none;
+	color: white;
+}
