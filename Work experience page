@@ -1,0 +1,50 @@
+<!-- HTML for princebytes.com Resume page-->
+<!DOCTYPE html>
+<html>
+	<head> <meta charset = "UTF-8"> 	
+	<link rel="stylesheet" type="text/css" href="realcss.css">
+	<title>Chris's all in one website</title>
+	</head>
+
+		<body>
+		<div id="transimages">
+			<nav>
+				<ul>
+				<li id="nav1"><a href="index.html"><img src="home.png"></a></li>
+				<li id="nav1"><a href="contactc.html"><img src="contact.png"></a></li>
+				<li id="nav1"><a href="resumec.html"><img src="exp.png"></a></li>
+				<li id="nav1"><a href="achievc.html"><img src="ach.png"></a></li>
+				</ul>
+			</nav>
+		</div>
+	<div id="winning">
+<h1>Work Experience</h1>
+		<div id="div4resu">
+			
+				<h3>Freelanced as a Front-End Developer</h3>
+
+<p><strong><b>The Goshen School House Cafe and Market
+Goshen, AR</b></strong>
+
+Developed a site for a local restaurant that would display the specials they had going on each day, the full menu, and contact information. Utilizing CSS3, HTML5, and JavaScript. The site had a editable list of specials that would change on a 24-hour cycle, a full menu, and the contact information of the restaurant.</p>
+
+<p><strong><b>Eagle News
+Fayetteville, AR</b><strong>
+
+Created a Joomla add-on that would allow the user to scan articles of a newspaper that they could then post directly onto there website. The site utilized HTML5, CSS3, and JavaScript</p>
+
+<p><strong><b>Zync Co.
+Lehigh, FL</b></strong>
+
+Worked with a small team to create a forum site as the UI designer, also responsible in creating every image needed on the page. Primarily worked with HTML5, CSS3, JavaScript, and jQuery.</p>
+
+<p><strong><b>Huntsville High School
+Fayetteville, AR</b></strong>
+
+Built a HTML5, CSS3 template that utilized Joomla for quick uploading, also taught 30+ students how to use the website efficiently.</p>
+
+		
+		</div>
+	</div>
+	</body>
+</html>
